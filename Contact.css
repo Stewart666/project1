@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    text-align: center;
+    height: 100dvh;
+    transition-duration: 3s;
+    background-image:url(redBackground.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+h1{
+    text-align: center;
+}
+img{
+    transition-duration: 3s;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: inset 1px 1px 5px grey, 1px 1px 5px grey;    
+}
+a{
+    text-decoration: none;
+}
+div{
+    box-shadow: inset 5px 5px 5px grey, 5px 5px 5px grey;    
+    background-image:url(waterBackground.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+}
+button{
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
+}
